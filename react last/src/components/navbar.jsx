@@ -9,7 +9,7 @@ export default function Navbar() {
                 <ul className="flex">
                     <li><button className="bg-blue-900 p-2 rounded-xl text-white" ><Link to="/Home">🏠Home</Link></button></li>
                     <li><button className="bg-blue-900 p-2 rounded-xl text-white" ><Link to="/addStu">👨‍🎓Add Student</Link></button></li>
-                    <li><button className="bg-blue-900 p-2 rounded-xl text-white"><Link to="/About">❕About</Link></button></li>
+                    <li><button className="bg-blue-900 p-2 rounded-2xl text-white"><Link to="/About">❕About</Link></button></li>
 
 
 
