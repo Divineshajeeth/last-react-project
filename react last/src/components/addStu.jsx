@@ -92,7 +92,7 @@ function Add() {
                         <li key={index} className="text-center p-30 bg-gray-100 text-1xl font-bold">
                             <h3>{student.name}</h3>
                             <p className="bg-gray-100 p-6"> Age: {student.age} yrs</p>
-                            <p> Gmail: {student.gmail}</p>
+                            <p> Gmail: {student.gmail}</p><br></br>
                             <p> Course: {student.course}</p>
                         </li>
                     );
