@@ -9,7 +9,8 @@ function Add() {
     const [age, setAge] = useState("");
     const [gmail, setGmail] = useState("");
     const [course, setCourse] = useState("");
-    const [errors, setErrors] = useState({}); function handleAddStudent() {
+    const [errors, setErrors] = useState({});
+     function handleAddStudent() {
         const newErrors = {}; if (name.trim() === "") {
             newErrors.name = ":warning: Name is required";
         } if (age.trim() === "" || isNaN(age) || parseInt(age) <= 0 || parseInt(age) > 100) {
@@ -85,7 +86,8 @@ function Add() {
             </div>
 
             {errors.course && <div style={{ color: "red", fontSize: "13px" }}>{errors.course}</div>}
-            <br /> <button className="bg-black text-white w-60 p-4 rounded-3xl " onClick={handleAddStudent} style={{ marginTop: "10px" }}> Add Student</button>
+            <br /> 
+            <button className="bg-black text-white w-60 p-4 rounded-3xl " onClick={handleAddStudent} style={{ marginTop: "10px" }}> Add Student</button>
             <ul>
                 {students.map(function (student, index) {
                     return (
