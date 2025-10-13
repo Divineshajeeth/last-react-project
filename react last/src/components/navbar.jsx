@@ -7,7 +7,7 @@ export default function Navbar() {
 
                 <h2 className="Studyy text-4xl font-bold flex">🎓S.Hub</h2>
                 <ul className="flex">
-                    <li><button className="bg-blue-900 p-2 rounded-xl text-white" ><Link to="/Home">🏠Home</Link></button></li>
+                    <li><button className="bg-blue-900 p-2 rounded-xl text-white" ><Link to="/">🏠Home</Link></button></li>
                     <li><button className="bg-blue-900 p-2 rounded-xl text-white" ><Link to="/addStu">👨‍🎓Add Student</Link></button></li>
                     <li><button className="bg-blue-900 p-2 rounded-2xl text-white"><Link to="/About">❕ <br></br>About</Link></button></li>
 
